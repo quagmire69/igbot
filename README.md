@@ -1,0 +1,2 @@
+# igbot
+Minimal Instagram bot
