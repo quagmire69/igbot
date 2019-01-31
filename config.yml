@@ -1,0 +1,17 @@
+# DATA
+
+## USER
+USER:
+    username: # your username
+    password: # your password
+
+## TAG
+TAGS:
+    # I like <num> photos
+    like: 100
+    # list tags
+    tags:
+        - 'urbanart'
+        - 'calligraffiti'
+
+
