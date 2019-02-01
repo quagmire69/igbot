@@ -14,12 +14,18 @@ git clone https://github.com/decoxviii/igbot.git ; cd igbot
 #### Prerequisites
 + selenium
 + pyyaml
++ Firefox Browser
 
 ```
+# for install selenium and pyyaml
 sudo -H pip3 install -r requirements.txt
 ```
 
-**Selenium** requires a driver to interface with the chosen browser. Firefox, for example, requires [geckodriver](https://github.com/mozilla/geckodriver/releases), which needs to be installed before the below examples can be run. Make sure it’s in your PATH, e. g., place it in /usr/bin or /usr/local/bin.
+**Selenium** requieres a driver ([geckodriver](https://github.com/mozilla/geckodriver/releases)) to interface with browser Firefox, which needs to be installed before the below tests can be run. Make sure it's in your PATH, e. g., place it in `/usr/bin/` or `/usr/local/bin/`.
+
+```
+sudo mv geckodriver /usr/bin/
+```
 
 Failure to observe this step will give you an error `selenium.common.exceptions.WebDriverException: Message: ‘geckodriver’ executable needs to be in PATH.`
 
