@@ -1,7 +1,7 @@
 # igbot
 Minimal Instagram bot
 
-![status](https://img.shields.io/badge/status-Building-red.svg?style=flat-square) 
+![status](https://img.shields.io/badge/status-stagnant-red.svg?style=flat-square) 
 ![version](https://img.shields.io/badge/version-31.01.19-lightgrey.svg?style=flat-square)
 
 ---
